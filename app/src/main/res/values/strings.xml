@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Caza Monedas</string>
+    <string name="dos">Dos Euros</string>
+    <string name="uno">Un Euro</string>
+    <string name="point_black">Eliminado</string>
+    <string name="btn_start">Empezar</string>
+    <string name="pulsar_para_jugar">Pulse para jugar</string>
+    <string name="score">Euros:</string>
+    <string name="derecha">Derecha</string>
+    <string name="izquierda">Izquierda</string>
+    <string name="result_title">GAME OVER</string>
+    <string name="result_score">%d</string>
+    <string name="high_score">Mejor puntuación: %d</string>
+    <string name="btn_try_again">Intentar de nuevo</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/box"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/dos"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/uno"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/black"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/uno"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/dos"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+
+
+
+</LinearLayout>
